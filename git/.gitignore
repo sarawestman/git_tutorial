@@ -1,0 +1,12 @@
+# ignore these directories:
+results/
+intermediate/
+
+# ignore temp files:
+*.tmp
+
+# ignore all files in the data/ directory
+data/*
+
+# Exclude the metadata file by prefixing it eith an exclamation mark
+!data/metadata.txt
